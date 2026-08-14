@@ -12,4 +12,4 @@ Static privacy-policy website for HexoMC Verification.
 
 The site will be available at:
 
-`https://memoxiiii.github.io/hexomc-privacy/`
+`https://hexomc.github.io/hexomc-privacy/`
