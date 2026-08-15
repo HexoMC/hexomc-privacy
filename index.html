@@ -3,129 +3,152 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy policy for HexoMC account verification services.">
-  <meta name="theme-color" content="#0b1016">
-  <title>Privacy Policy | HexoMC</title>
+  <meta name="description" content="Official privacy policy for HexoMC account verification services.">
+  <meta name="theme-color" content="#080d14">
+  <meta property="og:title" content="HexoMC Privacy Policy">
+  <meta property="og:description" content="How HexoMC handles Minecraft and Discord account verification data.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hexomc.github.io/hexomc-privacy/">
+  <meta property="og:image" content="https://hexomc.github.io/hexomc-privacy/assets/hexomc-icon.png">
+  <link rel="canonical" href="https://hexomc.github.io/hexomc-privacy/">
+  <link rel="icon" type="image/png" href="assets/hexomc-icon.png">
   <link rel="stylesheet" href="styles.css">
+  <title>Privacy Policy | HexoMC</title>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="HexoMC privacy policy">
-      <span class="brand-mark" aria-hidden="true">H</span>
-      <span>
-        <strong>HexoMC</strong>
-        <small>Network Privacy</small>
-      </span>
+    <a class="brand" href="#top" aria-label="HexoMC privacy policy home">
+      <img src="assets/hexomc-title.png" alt="HexoMC">
+      <span>Privacy</span>
     </a>
-    <a class="support-link" href="https://discord.gg/422wuqJCe7" target="_blank" rel="noreferrer">Contact support</a>
+    <a class="header-action" href="https://discord.gg/422wuqJCe7" target="_blank" rel="noreferrer">Open a support ticket</a>
   </header>
 
   <main id="top">
     <section class="policy-heading" aria-labelledby="policy-title">
-      <p class="eyebrow">Legal</p>
-      <h1 id="policy-title">Privacy Policy</h1>
-      <p class="summary">How HexoMC handles information when you connect your Minecraft and Discord accounts.</p>
+      <div class="heading-copy">
+        <p class="eyebrow">Official policy</p>
+        <h1 id="policy-title">Privacy Policy</h1>
+        <p class="summary">A clear record of the information HexoMC uses when you connect your Minecraft and Discord accounts.</p>
+      </div>
       <dl class="policy-meta">
-        <div>
-          <dt>Effective</dt>
-          <dd>August 15, 2026</dd>
-        </div>
-        <div>
-          <dt>Service</dt>
-          <dd>HexoMC Verification</dd>
-        </div>
+        <div><dt>Effective date</dt><dd>August 15, 2026</dd></div>
+        <div><dt>Applies to</dt><dd>HexoMC Verify</dd></div>
+        <div><dt>Policy URL</dt><dd><a href="https://hexomc.github.io/hexomc-privacy/">hexomc.github.io/hexomc-privacy</a></dd></div>
       </dl>
     </section>
 
     <div class="policy-layout">
-      <nav class="contents" aria-label="Policy sections">
-        <strong>Contents</strong>
-        <a href="#scope">Scope</a>
-        <a href="#data">Data we process</a>
-        <a href="#use">How we use data</a>
-        <a href="#retention">Retention and deletion</a>
-        <a href="#sharing">Sharing</a>
-        <a href="#security">Security</a>
-        <a href="#rights">Your choices</a>
-        <a href="#changes">Policy changes</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <aside class="sidebar">
+        <nav class="contents" aria-label="Policy sections">
+          <strong>On this page</strong>
+          <a href="#scope">Scope</a>
+          <a href="#data">Data we process</a>
+          <a href="#use">How we use data</a>
+          <a href="#retention">Retention and deletion</a>
+          <a href="#sharing">Sharing</a>
+          <a href="#security">Security</a>
+          <a href="#rights">Your choices</a>
+          <a href="#changes">Policy changes</a>
+          <a href="#contact">Support</a>
+        </nav>
+        <div class="sidebar-support">
+          <span>Need help?</span>
+          <p>Join the official Discord server and open a private support ticket.</p>
+          <a href="https://discord.gg/422wuqJCe7" target="_blank" rel="noreferrer">Open ticket system</a>
+        </div>
+      </aside>
 
       <article class="policy">
+        <div class="important-note">
+          <strong>Your account stays under your control.</strong>
+          <p>Use <code>/unlink</code> in Minecraft or Discord at any time to remove the stored connection between your accounts.</p>
+        </div>
+
         <section id="scope">
-          <h2>1. Scope</h2>
+          <p class="section-number">01</p>
+          <h2>Scope</h2>
           <p>This policy applies to the HexoMC Discord verification service. The service lets a player prove ownership of a Minecraft account and connect it to a Discord account for access to verified areas of the HexoMC community.</p>
-          <p>Linking is optional. It begins only when you request a temporary code in Minecraft and confirm the link through the HexoMC Discord bot.</p>
+          <p>Linking is optional. It begins only when you request a temporary code in Minecraft and confirm the link through the official HexoMC Discord bot.</p>
         </section>
 
         <section id="data">
-          <h2>2. Data we process</h2>
-          <p>We process only the information required to operate account verification:</p>
+          <p class="section-number">02</p>
+          <h2>Data we process</h2>
+          <p>We process only the information needed to operate account verification:</p>
           <ul>
             <li>Your Discord user ID.</li>
             <li>Your Minecraft account UUID and current Minecraft name.</li>
             <li>The date and time the accounts were linked or updated.</li>
             <li>A temporary cryptographic digest of your verification code.</li>
-            <li>Limited technical logs needed to diagnose errors, prevent abuse, and protect the service.</li>
+            <li>Limited technical logs used to diagnose errors, prevent abuse, and protect the service.</li>
           </ul>
           <p>Verification codes are single-use, expire after 15 minutes, and are not stored as readable codes. We do not request or store your Discord password, Minecraft password, private messages, payment information, or advertising profile.</p>
         </section>
 
         <section id="use">
-          <h2>3. How we use data</h2>
-          <p>We use verification information to:</p>
+          <p class="section-number">03</p>
+          <h2>How we use data</h2>
+          <p>Verification information is used to:</p>
           <ul>
             <li>Confirm that you control the Minecraft account being linked.</li>
-            <li>Prevent one Minecraft or Discord account from being linked more than once.</li>
-            <li>Assign the appropriate Discord access role and Minecraft nickname.</li>
-            <li>Restore your linked status when the bot or network restarts.</li>
+            <li>Prevent duplicate links involving the same Minecraft or Discord account.</li>
+            <li>Assign the correct Discord access role and Minecraft nickname.</li>
+            <li>Restore linked status after a bot or network restart.</li>
             <li>Investigate failures, misuse, and security incidents.</li>
           </ul>
-          <p>We do not sell your personal information or use it for targeted advertising.</p>
+          <p>We do not sell personal information or use verification data for targeted advertising.</p>
         </section>
 
         <section id="retention">
-          <h2>4. Retention and deletion</h2>
+          <p class="section-number">04</p>
+          <h2>Retention and deletion</h2>
           <p>Your account link is retained until you unlink it or request its deletion. Expired verification codes are deleted automatically. Operational logs are retained only as long as reasonably needed for reliability, abuse prevention, and security.</p>
-          <div class="notice">
-            <strong>Unlink at any time</strong>
-            <p>Run <code>/unlink</code> in Minecraft or use the Discord bot's <code>/unlink</code> command. The stored account link is deleted, the Linked role is removed, and the Unlinked role is applied.</p>
+          <div class="command-row" aria-label="Account commands">
+            <div><code>/verify</code><span>Start account verification</span></div>
+            <div><code>/unlink</code><span>Delete the account link</span></div>
           </div>
         </section>
 
         <section id="sharing">
-          <h2>5. Data sharing</h2>
-          <p>Verification information is used by HexoMC systems and authorized operators only. We may rely on infrastructure providers to host the service and database. We do not disclose verification data to data brokers.</p>
+          <p class="section-number">05</p>
+          <h2>Data sharing</h2>
+          <p>Verification information is used by HexoMC systems and authorized operators only. Infrastructure providers may process limited data while hosting the service and database. We do not disclose verification data to data brokers.</p>
           <p>Information may be disclosed when reasonably necessary to comply with law, protect users, investigate abuse, or defend the security and integrity of HexoMC.</p>
         </section>
 
         <section id="security">
-          <h2>6. Security</h2>
-          <p>HexoMC uses expiring single-use codes, keyed cryptographic digests, access-controlled databases, role-based permissions, and credentials kept outside source control. No online system can guarantee absolute security, but we work to limit access and respond to confirmed incidents.</p>
+          <p class="section-number">06</p>
+          <h2>Security</h2>
+          <p>HexoMC uses expiring single-use codes, keyed cryptographic digests, access-controlled databases, role-based permissions, and credentials stored outside source control. No online service can guarantee absolute security, but we work to limit access and respond to confirmed incidents.</p>
         </section>
 
         <section id="rights">
-          <h2>7. Your choices</h2>
-          <p>You may choose not to link your accounts. You may also request access to, correction of, or deletion of your verification information by contacting support. We may ask you to verify account ownership before completing a request.</p>
+          <p class="section-number">07</p>
+          <h2>Your choices</h2>
+          <p>You may choose not to link your accounts. You may request access to, correction of, or deletion of your verification information through the HexoMC ticket system. We may ask you to verify account ownership before completing a request.</p>
         </section>
 
         <section id="changes">
-          <h2>8. Changes to this policy</h2>
+          <p class="section-number">08</p>
+          <h2>Changes to this policy</h2>
           <p>We may update this policy when the verification service or legal requirements change. The effective date at the top of this page will be updated when material changes are published.</p>
         </section>
 
-        <section id="contact">
-          <h2>9. Contact</h2>
-          <p>HexoMC Network operates this verification service. For privacy questions, account deletion requests, or security reports, contact the team through the official HexoMC Discord server.</p>
-          <a class="contact-button" href="https://discord.gg/422wuqJCe7" target="_blank" rel="noreferrer">Open HexoMC support</a>
+        <section id="contact" class="contact-section">
+          <p class="section-number">09</p>
+          <h2>Support and privacy requests</h2>
+          <p>For privacy questions, account deletion requests, or security reports, join the official HexoMC Discord server and create a private ticket. Do not post personal or account information in public channels.</p>
+          <a class="primary-action" href="https://discord.gg/422wuqJCe7" target="_blank" rel="noreferrer">Open the HexoMC ticket system <span aria-hidden="true">↗</span></a>
         </section>
       </article>
     </div>
   </main>
 
   <footer>
-    <span>HexoMC Network</span>
-    <span>Privacy Policy</span>
+    <img src="assets/hexomc-title.png" alt="HexoMC">
+    <p>Official privacy policy for HexoMC account verification.</p>
+    <a href="#top">Back to top</a>
   </footer>
 </body>
 </html>
